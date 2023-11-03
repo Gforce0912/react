@@ -8,6 +8,7 @@ import revAvatar from "../img/All-reviews/camera.png";
 import revAttach from "../img/All-reviews/attach.png";
 
 import Arrow from "../img/Arrow.svg";
+import Footer from "./Footer";
 
 
 function AllReviews(){
@@ -80,6 +81,7 @@ function AllReviews(){
                     <a href="#" className="main-btn-a rev-btn"><button className="btn rev-btn">Оnравить отзыв<span><img src={arrow} alt="" /></span></button></a>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -8,7 +8,7 @@ import Icone_3 from "../img/icone3.svg"
 import Avatar from "../img/Avatar.png"
 import Reviews from "./Reviews"
 import Form from "./Form";
-
+import Footer from "./Footer";
 import opportunity1 from "../img/Opportunity icones/independence-day 1.svg"
 import opportunity2 from "../img/Opportunity icones/uncle-sam 1.svg"
 import opportunity3 from "../img/Opportunity icones/usa 1.svg"
@@ -24,17 +24,6 @@ const Main = ( ) => {
   const [aboutCardsTitle, setAboutCardsTitle] = useState("Что то");
   const [aboutCardsBody, setAboutCardsBody] = useState('Хочу сказать огромное спасибо студентческому агентству! Я принимала а и аиталина всегда помогали и отвечали на все интересующие вопросы, давали советы.');
 
-  let text1 = setInterval(() => {
-    setAboutCardsTitle("Еще что то");
-    let text2 = setInterval(() => {
-        if(aboutCardsTitle != "Что то"){
-            clearInterval(text1);
-            setAboutCardsTitle("АААААААААА");
-                
-        }
-      }, 10000)
-  }, 5000)
-        
 
     return(
         <div>
@@ -180,6 +169,7 @@ const Main = ( ) => {
         </div>
         <a href="/AllReviews" className="main-btn-a"><button className="all-reviews btn">Все отзывы<span><img src={arrow} alt="" /></span></button></a>
       </main>
+      <Footer/>
         </div>
 
 )}

@@ -3,6 +3,7 @@ import CardImg1 from "../img/aboutCards1.png";
 import CardImg2 from "../img/aboutCards2.png";
 import CardImg3 from "../img/aboutCards3.png";
 import CardImg4 from "../img/aboutCards4.png";
+import Footer from "./Footer";
 function AboutProgram () {
 const [companyContentTitle, setCompanyContentTitle] = useState('МЕЖКУЛЬТУРНЫЙ ОБМЕН')
 const [companyContentBody, setCompanyContentBody] = useState(`Хочу сказать огромное спасибо студенческому агентству! Я принимала участие в программе Work and Travel USA в этом году и ездила в Вирджинию, работали спасателем в компании High Sierra Pools. Все было оформлено быстро, понятно, Анна и Виталина всегда помогали и отвечали на все интересующие вопросы, давали советы. Тренинг спасателей проводила Виталина в Калининграде, все проходило крайне интересно, все было понятно и объяснено.`)
@@ -184,6 +185,7 @@ function showTitleWork3(){
                     <div className="bout-program-work_p" id="work_p">{work_p4}</div>
                 </div>                
             </div>
+            <Footer/>
         </div>
     )
 }

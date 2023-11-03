@@ -3,6 +3,7 @@ import History_img from "../img/about compony/our-history-img.png";
 import Mission_img from "../img/about compony/our-mission-img.png";
 import Bookmark1 from "../img/about compony/bookmark1.png";
 import Bookmark2 from "../img/about compony/bookmark2.png";
+import Footer from "./Footer";
 function AboutCompany(){
     return(
         <div className="about_company">
@@ -73,6 +74,7 @@ function AboutCompany(){
                 </div>
             </div>
             <div className="overflow"></div>
+            <Footer/>
         </div>
     )
 }

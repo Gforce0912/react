@@ -3,6 +3,7 @@ import Cards from "./Cards";
 import Icone_1 from "../img/icone1.svg"
 import Icone_2 from "../img/icone2.svg"
 import Icone_3 from "../img/icone3.svg"
+import Footer from "./Footer";
 function Services () {
     const [largeCardsIcon, setLargeCardsIcon] = useState(Icone_1);
 
@@ -64,7 +65,7 @@ function Services () {
             </div>
         </div>
             
-
+        <Footer/>
         </div>
     )
 }
